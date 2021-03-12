@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+
+ body {
+     background: linear-gradient(0deg, rgb(226, 116, 116), 50%, #DEEEFE);
+     font-family: 'Rubik', sans-serif;
+     background: #57b9eb;
+     height: 100 !important
+ }
+
+ .container-fluid {
+     overflow: hidden;
+     margin-top: 250px;
+     background: #262626;
+     color: #627482 !important;
+     margin-bottom: 0;
+     padding-bottom: 0
+ }
+
+ small {
+     font-size: calc(12px + (15 - 12) * ((100vw - 360px) / (1600 - 360))) !important
+ }
+
+ .bold-text {
+     color: #dabc15 !important
+ }
+
+ .mt-55 {
+     margin-top: calc(50px + (60 - 50) * ((100vw - 360px) / (1600 - 360))) !important
+ }
+
+ h3 {
+     font-size: calc(34px + (40 - 34) * ((100vw - 360px) / (1600 - 360))) !important
+ }
+
+ .social {
+     font-size: 21px !important
+ }
+
+ .rights {
+     font-size: calc(10px + (12 - 10) * ((100vw - 360px) / (1600 - 360))) !important
+ }
+ button{
+     background-color: rgb(214, 126, 18);
+ }
+ input{
+     background-color: rgb(62, 198, 202);
+ }
+ .material-icons{
+     font-size: 180px;
+     color: rgb(252, 252, 252);
+     transition: transform .91s;
+     background-color:#4daedf;
+     border-radius: 30px;
+     
+ }
+
+ .material-icons:hover {
+    -ms-transform: scale(1.02); /* IE 9 */
+    -webkit-transform: scale(1); /* Safari 3-8 */
+    transform: scale(1.002); 
+    background-color: #1d688d;
+    border-radius: 30px;
+  }
+  
+    @media print{
+        body *{
+            visibility: hidden;
+        }
+        .print-container ,.print-container *{
+            visibility:visible;
+        }
+        h1{
+            visibility:visible;
+        }
+    }
+
+img{
+    border-radius: 30px;
+    padding: 10px;
+}
+
+img {
+    
+    
+    transition: transform .4s; /* Animation */
+    width: 280px;
+    height: 280px;
+    margin: 0 auto;
+  }
+  
+ img:hover {
+    transform: scale(1.025); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+.card{
+    background-color: #71c4ee;
+}
+a{
+    border-radius: 30px;
+}
+a:hover{
+    background-color: #44bcf8;
+    border-radius: 30px;
+}
